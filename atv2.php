@@ -8,10 +8,10 @@
   </head>
   <body>
     <form action="#" method="post">
-        1: <input id=1 type="number" name="1"><br>
-        2: <input id=2 type="number" name="2"><br>
-        3: <input id=3 type="number" name="3"><br>
-        4: <input id=4 type="number" name="4"><br>
+        1: <input id=1 type="float" name="1"><br>
+        2: <input id=2 type="float" name="2"><br>
+        3: <input id=3 type="float" name="3"><br>
+        4: <input id=4 type="float" name="4"><br>
         <input type="submit">
     </form>
   </body>
@@ -29,7 +29,7 @@
         echo "Recuperação! <br>O aluno precisa de nota $nota para ser aprovado!";
       }
       if($media<5){
-          echo "Reprovado!";
+        echo "Reprovado!";
       }
   }
 ?>
